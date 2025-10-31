@@ -1,0 +1,86 @@
+/* background by SVGBackgrounds.com */
+.PaletteList {
+  background-color: #394bad;
+  background-image: url("bg.svg");
+  min-height: 100vh;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+
+.PaletteList-container {
+  width: 50%;
+  display: flex;
+  align-items: flex-start;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.PaletteList-nav {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: white;
+  align-items: center;
+  a {
+    color: white;
+  }
+}
+
+.PaletteList-heading {
+  font-size: 2rem;
+}
+
+.PaletteList-button {
+  margin: 0 0.5rem !important;
+}
+
+.PaletteList-palettes {
+  box-sizing: border-box;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  grid-gap: 2.5rem;
+}
+
+@media screen and (max-width: 1599.98px) {
+  .PaletteList-container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 1399.98px) {
+  .PaletteList-container {
+    width: 80%;
+  }
+}
+@media screen and (max-width: 991.98px) {
+  .PaletteList-palettes {
+    grid-template-columns: repeat(2, 50%);
+    grid-gap: 1.5rem;
+  }
+}
+@media screen and (max-width: 767.98px) {
+  .PaletteList-button {
+    font-size: 0.8rem !important;
+    padding: 0.5rem !important;
+  }
+}
+@media screen and (max-width: 575.98px) {
+  .PaletteList-container {
+    width: 70%;
+  }
+  .PaletteList-palettes {
+    grid-template-columns: repeat(1, 100%);
+  }
+
+  .PaletteList-navButtons {
+    margin-right: 0rem;
+  }
+
+  .PaletteList-button {
+    margin: 0.1rem !important;
+    width: 48%;
+    font-size: 0.8rem !important;
+    padding: 0.3rem !important;
+  }
+}

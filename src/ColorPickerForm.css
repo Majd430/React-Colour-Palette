@@ -1,0 +1,21 @@
+.ColorPickerForm {
+  width: 100%;
+}
+
+.ColorPickerForm-picker {
+  margin-top: 2rem;
+}
+
+#ColorPickerForm-addColor {
+  width: 100%;
+  padding: 1rem;
+  margin-top: 1rem;
+  font-size: 2rem;
+}
+
+.css-1xp5r68-MuiFormControl-root-MuiTextField-root {
+    width: 100%;
+    height: 70px;
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}

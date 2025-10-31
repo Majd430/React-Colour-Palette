@@ -1,0 +1,33 @@
+.PaletteMetaForm-navButtons {
+  margin-right: 1rem;
+}
+
+.PaletteMetaForm-button {
+  margin: 0 0.5rem !important;
+}
+
+@media screen and (max-width: 575.98px) {
+  .PaletteMetaForm-navButtons {
+    margin-right: 0rem;
+  }
+
+  .PaletteMetaForm-button {
+    margin: 0.1rem !important;
+    width: 48%;
+    text-wrap: nowrap;
+    font-size: 0.8rem !important;
+    padding: 0.5rem !important;
+  }
+
+  .PaletteFormNav-title {
+    font-size: 1rem !important;
+  }
+
+  body
+    > div.MuiDialog-root.MuiModal-root.css-1424xw8-MuiModal-root-MuiDialog-root
+    > div.MuiDialog-container.MuiDialog-scrollPaper.css-19do60a-MuiDialog-container
+    > div
+    > div.MuiDialogActions-root.MuiDialogActions-spacing.css-15fu35s-MuiDialogActions-root {
+    justify-content: space-around !important;
+  }
+}

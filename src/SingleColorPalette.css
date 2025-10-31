@@ -1,0 +1,28 @@
+.ColorBox.go-back {
+  background-color: black;
+}
+
+.SingleColorPalette .logo {
+  display: flex;
+}
+
+@media screen and (max-width: 1199.98px) {
+  .SingleColorPalette .ColorBox {
+    width: 25%;
+    height: 33.3333%;
+  }
+}
+
+@media screen and (max-width: 991.98px) {
+  .SingleColorPalette .ColorBox {
+    width: 50%;
+    height: 20%;
+  }
+}
+
+@media screen and (max-width: 575.98px) {
+  .SingleColorPalette .ColorBox {
+    width: 100%;
+    height: 10%;
+  }
+}
