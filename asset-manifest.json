@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.0fe6733f.css",
+    "main.js": "/static/js/main.24df6a83.js",
+    "static/js/453.c9f0f796.chunk.js": "/static/js/453.c9f0f796.chunk.js",
+    "static/media/CoolerPaletteLogo.png": "/static/media/CoolerPaletteLogo.acd94426ee98b99add4d.png",
+    "static/media/bg.svg": "/static/media/bg.c99d9e1b84c41f14d53f.svg",
+    "index.html": "/index.html",
+    "main.0fe6733f.css.map": "/static/css/main.0fe6733f.css.map",
+    "main.24df6a83.js.map": "/static/js/main.24df6a83.js.map",
+    "453.c9f0f796.chunk.js.map": "/static/js/453.c9f0f796.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.0fe6733f.css",
+    "static/js/main.24df6a83.js"
+  ]
+}
