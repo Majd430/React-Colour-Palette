@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/React-Colour-Palette/static/css/main.5694b8fd.css",
+    "main.js": "/React-Colour-Palette/static/js/main.3bbc6d14.js",
+    "static/js/453.c9f0f796.chunk.js": "/React-Colour-Palette/static/js/453.c9f0f796.chunk.js",
+    "static/media/CoolerPaletteLogo.png": "/React-Colour-Palette/static/media/CoolerPaletteLogo.acd94426ee98b99add4d.png",
+    "static/media/bg.svg": "/React-Colour-Palette/static/media/bg.c99d9e1b84c41f14d53f.svg",
+    "index.html": "/React-Colour-Palette/index.html",
+    "main.5694b8fd.css.map": "/React-Colour-Palette/static/css/main.5694b8fd.css.map",
+    "main.3bbc6d14.js.map": "/React-Colour-Palette/static/js/main.3bbc6d14.js.map",
+    "453.c9f0f796.chunk.js.map": "/React-Colour-Palette/static/js/453.c9f0f796.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5694b8fd.css",
+    "static/js/main.3bbc6d14.js"
+  ]
+}
