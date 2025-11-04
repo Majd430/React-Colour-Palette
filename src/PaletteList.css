@@ -79,8 +79,25 @@
 
   .PaletteList-button {
     margin: 0.1rem !important;
-    width: 48%;
     font-size: 0.8rem !important;
-    padding: 0.3rem !important;
+  }
+}
+
+.PaletteFooter-navButtons {
+  margin-right: 1rem;
+}
+
+.PaletteFooter-button {
+  margin: 0 0.5rem !important;
+}
+
+@media screen and (max-width: 575.98px) {
+  .PaletteFooter-navButtons {
+    margin-right: 0rem;
+  }
+
+  .PaletteFooter-button {
+    margin: 0.1rem !important;
+    text-wrap: nowrap;
   }
 }

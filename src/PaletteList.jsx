@@ -46,15 +46,6 @@ function PaletteList(props) {
       <div className="PaletteList-container">
         <nav className="PaletteList-nav">
           <h1 className="PaletteList-heading">React Colors</h1>
-          <div className="PaletteList-navButtons">
-            <Button
-              variant="contained"
-              color="secondary"
-              onClick={handleClick}
-              className="PaletteList-button"
-            >
-              Reset Palette
-            </Button>
             <NavLink to="/palette/new">
               <Button
                 variant="contained"
@@ -64,7 +55,6 @@ function PaletteList(props) {
                 Create Palette
               </Button>
             </NavLink>
-          </div>
         </nav>
         <TransitionGroup className="PaletteList-palettes">
           {palettes.map((palette) => {
